@@ -1,0 +1,28 @@
+/* components/w-operate-bar/w-operate-bar.wxss */
+/* components/w-operate-bar/w-operate-bar.wxss */
+.operate-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 64rpx;
+   padding: 0 16rpx;
+   border-radius: 10rpx;
+   margin-right: 16rpx;
+ }
+ 
+ .operate-btn image {
+   width: 40rpx;
+   height: 40rpx;
+ }
+ 
+ .operate-btn text {
+   font-size: 24rpx;
+   color: #fff;
+   margin-left: 10rpx;
+ }
+/* 点击按钮透明度，能让用户感觉到 */
+ .hover {
+    opacity: 0.8;
+ }
+ 
+ 

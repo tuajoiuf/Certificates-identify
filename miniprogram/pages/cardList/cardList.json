@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "w-operate-bar": "/components/w-operate-bar/w-operate-bar"
+  }
+}

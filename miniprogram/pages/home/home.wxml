@@ -1,0 +1,20 @@
+<!--miniprogram/pages/home/home.wxml-->
+<view>
+<!-- 头部 -->
+  <w-header title="卡证类型"/>
+
+<!-- 卡片类型 -->
+<w-card-item categories="{{categories}}" />
+
+<!-- 工具栏 -->
+<picker class="addcard" 
+range="{{categories}}" bindchange="pickValueChange"
+range-key="title" >
+  <w-tool-bar icon="/assets/add.png"  title="添加卡证" />
+</picker>
+
+
+</view>
+
+
+

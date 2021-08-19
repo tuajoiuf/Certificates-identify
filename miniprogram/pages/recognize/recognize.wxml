@@ -1,0 +1,24 @@
+<!--miniprogram/pages/recognize/recognize.wxml-->
+<w-tool-bar icon="/assets/add.png" 
+            title="选择{{categories[type]}}"
+           class="my-class"
+            bindtap="selectClick"/>
+
+<w-tool-bar icon="/assets/save.png" 
+            title="保存信息"
+            class="my-class"
+            bgColor="#efb336"
+            bindtap="saveClick"/>
+
+<w-tool-bar icon="/assets/copy.png" 
+            title="复制信息"
+            class="my-class"
+            bgColor="#d34b2c"
+            bindtap="copyClick"/>
+
+<block wx:if="{{idInfo}}">
+<w-header title="身份证信息" >
+ <button size="mini" class="btn">按钮</button>
+</w-header>
+ <w-card-info info="{{idInfo}}"/>
+</block> 

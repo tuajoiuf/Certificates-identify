@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "w-card":"../../../../components/w-card/w-card"
+  }
+}

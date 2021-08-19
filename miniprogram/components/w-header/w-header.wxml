@@ -1,0 +1,7 @@
+<view class="item-type">
+   <text>{{title}}</text>
+<!--    设置插槽作为自定义组件-->
+    <view class="right-slot">
+        <slot></slot>
+    </view>
+</view>

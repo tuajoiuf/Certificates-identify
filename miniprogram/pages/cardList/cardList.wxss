@@ -1,0 +1,9 @@
+/* miniprogram/pages/cardList/cardList.wxss */
+.conten {
+   display: flex;
+   justify-content:space-between  
+}
+
+.operate-bar{
+   display: flex;
+}

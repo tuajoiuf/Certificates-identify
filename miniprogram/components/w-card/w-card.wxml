@@ -1,0 +1,9 @@
+
+
+<!-- 卡片类型 -->
+<view class="item"> 
+<view  class="categories" >
+<image src="{{iconPath}}" mode="widthFix"></image>
+<view class="title">{{title}}</view>
+</view>
+</view>

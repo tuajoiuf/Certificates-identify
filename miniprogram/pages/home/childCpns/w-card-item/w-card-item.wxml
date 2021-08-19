@@ -1,0 +1,10 @@
+<!--pages/home/w-card-item/w-card-item.wxml-->
+<view class="card-category">
+
+  <block wx:for="{{ categories}}" wx:key="index">
+    <w-card title="{{item.title}}"
+            iconPath="{{item.icon}}"
+            bindtap="itemClick"
+            data-index="{{index}}"></w-card>
+  </block>
+</view>

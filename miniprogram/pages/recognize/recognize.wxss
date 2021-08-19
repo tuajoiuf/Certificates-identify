@@ -1,0 +1,16 @@
+/* miniprogram/pages/recognize/recognize.wxss */
+.my-class {
+   margin-top: 100rpx;
+}
+ .idInfo {
+    margin: 30rpx;
+ }
+
+ .idInfo image {
+    margin-top: 60rpx;
+    width: 100%;
+ }
+
+.btn {
+    vertical-align: middle;
+}

@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "w-card-item":"./childCpns/w-card-item/w-card-item",
+    "w-header": "/components/w-header/w-header"
+
+  },
+  "navigationBarTitleText": "我的卡证"
+}

@@ -1,0 +1,19 @@
+<!--miniprogram/pages/cardList/cardList.wxml-->
+<block wx:for="{{list}}" wx:key="index">
+<view class="conten">
+    <w-header title="身份证{{index+1}}信息" class="header"></w-header>
+    <view   class="operate-bar"> 
+    <w-operate-bar title="复制"
+                               icon= "/assets/copy.png"
+                               bindtap="copyClick"
+                               data-index="{{index}}"/>
+
+    <w-operate-bar title="删除"
+                               icon= "/assets/delete.png"
+                               bindtap="deleteClick"
+                               data-index="{{index}}"/>
+    </view>
+</view>
+
+    <w-card-info info="{{item}}"></w-card-info>
+</block>

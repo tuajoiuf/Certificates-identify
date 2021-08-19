@@ -1,0 +1,16 @@
+/* components/w-header/w-header.wxss */
+.item-type{
+  background: #d5cece;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-left: 6rpx solid #36ab60;
+  padding-left: 10rpx;
+  font-size: 34rpx;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-slot {
+  font-size: 0;
+}

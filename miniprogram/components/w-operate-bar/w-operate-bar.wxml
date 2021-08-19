@@ -1,0 +1,9 @@
+<!--components/w-operate-bar/w-operate-bar.wxml-->
+<!-- 模拟按钮设置 -->
+<view class="operate-btn" 
+            hover-class="hover"
+            hover-start-time="50"
+            style="background: {{ bgColor}}">
+            <image src="{{icon}}"></image>
+            <text>{{ title}}</text>
+</view>

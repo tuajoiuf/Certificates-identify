@@ -1,0 +1,30 @@
+.toll-bar {
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+  /* text-align: center; */
+  /* font-size: 0; */
+  /* x的基线+x的高度的一半 */
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 0 60rpx;
+  border-radius: 10rpx;
+
+}
+
+.toll-bar image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 20rpx;
+}
+.toll-bar text {
+  color: #fff;
+  font-size: 36rpx;
+
+  /* vertical-align: middle; */
+}
+/* 设置点击效果 */
+.hover {
+  opacity: 0.8;
+}
