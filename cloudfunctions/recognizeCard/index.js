@@ -12,9 +12,9 @@ exports.main = async (event, context) => {
 
    //2.使用腾讯云AI功能进行识别（身份证验证）
 
-   let AppId = '1300940164'; // 腾讯云 AppId
-   let SecretId = 'AKID97qKXVDUVFivuc3D6h16vTkjSv72i9JC'; // 腾讯云 SecretId
-   let SecretKey = 'e17wUnqb5JHyPbXCahX6OPAgvsZMt97q'; // 腾讯云 SecretKey
+   let AppId = ''; // 腾讯云 AppId
+   let SecretId = ''; // 腾讯云 SecretId
+   let SecretKey = ''; // 腾讯云 SecretKey
 
    //识别图片地址
    let idCardImageUrl= fileURL;
